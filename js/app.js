@@ -1,18 +1,18 @@
-//yangi uyga vazifa
-//1
+// yangi uyga vazifa
+// 1
 // let arr = [5, 8, 9, 6, 7];
 // let newArr = arr.map((item) => {
 //   return item * item;
 // });
 // console.log(newArr);
-//2
+// 2
 // let arr = [5, 8, 9, 6, 7, -8];
 // let newArr = arr.filter((item) => {
 //   return item < 0;
 // });
 // console.log(newArr);
-//3
-//4
+// 3
+// 4
 // let arr = [5, 8, 7, 9, 0, 7, 8];
 // let newArr = arr.reduce((acc, item) => {
 //   if (item !== 0) {
@@ -21,7 +21,7 @@
 //     console.log(acc);
 //   }
 // }, 0);
-//5
+// 5
 // let massiv = [1, 0, 3, 10, 4, 5, 6];
 // let yigindi = massiv.reduceRight((acc, item) => {
 //   if (item !== 0) {
