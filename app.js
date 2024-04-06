@@ -1,6 +1,5 @@
 let btn = document.querySelector("#pouse");
 let btn2 = document.querySelector(".container");
-let btn1 = document.querySelector(".sts");
 let title = document.querySelector("#id");
 let pouse = document.querySelector("#pouse");
 let start = document.querySelector("#start");
@@ -52,7 +51,7 @@ start.addEventListener("click", () => {
     }
     return hex;
   }
-  btn1.addEventListener("click", () => {
+  start.addEventListener("click", () => {
     let deg = Math.floor(Math.random() * 180);
     let gradiend = `linear-gradient(${deg}deg,${randomColor()},${randomColor()},${randomColor()})`;
     btn2.style.backgroundColor = randomColor();
