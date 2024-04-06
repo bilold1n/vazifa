@@ -4,7 +4,7 @@ let title = document.querySelector("#id");
 let pouse = document.querySelector("#pouse");
 let start = document.querySelector("#start");
 let idd = document.querySelector(".idd");
-let minute = +prompt("son kiriting");
+let minute = +prompt("minutlerni kiriting");
 let secund = 0;
 let soat = 0;
 
