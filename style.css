@@ -1,0 +1,83 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;800;900&display=swap");
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 50px 0 50px 0;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 10px;
+  background: rgb(63, 94, 251);
+  background: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(252, 70, 107, 1) 100%
+  );
+  border: 1px solid rgb(60, 44, 44);
+  transition: all 0.5s;
+}
+.container:hover {
+  box-shadow: 0px 6px 23px 18px rgba(34, 60, 80, 0.2);
+}
+
+#pouse,
+#start {
+  border-radius: 11px;
+  background-color: #fff;
+  color: #ffffff;
+  padding: 7px 14px 7px 14px;
+  cursor: pointer;
+  border: 1px solid rgb(34, 33, 33);
+
+  background: linear-gradient(
+    90deg,
+    rgba(156, 58, 180, 1) 0%,
+    rgba(93, 69, 249, 0.9528186274509804) 86%
+  );
+}
+body {
+  background-repeat: no-repeat;
+  height: 100vh;
+  display: flex;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  background-color: #4158d0;
+  background-image: linear-gradient(
+    43deg,
+    #4158d0 0%,
+    #c850c0 46%,
+    #ffcc70 100%
+  );
+
+  background: rgb(8, 0, 255);
+  background: linear-gradient(
+    267deg,
+    rgba(8, 0, 255, 1) 0%,
+    rgba(237, 0, 180, 1) 100%
+  );
+}
+#id {
+  font-size: 30px;
+  color: rgb(0, 0, 0);
+}
+.div {
+  display: flex;
+  gap: 30px;
+}
+#start:disabled,
+#pouse:disabled {
+  opacity: 0.5;
+  border: 1px solid black;
+  cursor: default;
+  color: aliceblue;
+}
+.idd {
+  color: #000000;
+}
